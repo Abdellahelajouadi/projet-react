@@ -1,16 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import React from 'react';
+import Markup from './Pages/Markup'
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Header/>
-      <Footer/>
+      <Markup/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

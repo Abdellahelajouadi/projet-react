@@ -1,15 +1,20 @@
-function Footer() {
-    return (
-      <section className="footer">
-        <h2 className="footer-title">Votre satisfaction est notre priorité.</h2>
-        <p className="footer-text">Vous avez une question, une suggestion ou besoin d’assistance ?
-N’hésitez pas à nous contacter ! Notre équipe est là pour vous aider et vous répondre dans les plus brefs délais.
-Remplissez le formulaire ci-dessous ou envoyez-nous un email — nous serons ravis de vous écouter.
+import React from 'react';
 
-</p>
-        <p>✉✈☎︎ ㊛</p>
-      </section>
-    );
-  }
-  
-  export default Footer;
+const Footer = () => {
+  return (
+    <div className="footer">
+
+    <div class="newsletter">
+      <h4>Contacter-nous</h4>
+      <p>Ziff Davis company. All Rights Reserved. Ookla, Speedtest, and Speedtest Intelligence are among the federally registered trademarks of Ookla, LLC and may only be used with explicit written permission.</p>
+    </div>
+
+    <div class="copyright">
+      <p>© 2025 - À propos des villes. Tous droits réservés.</p>
+    </div>
+
+    </div>
+  );
+};
+
+export default Footer;
